@@ -1,6 +1,7 @@
 public class Node {
     Object data;
     Node next;
+    public Node prev;
 
     public Node() {
     }
