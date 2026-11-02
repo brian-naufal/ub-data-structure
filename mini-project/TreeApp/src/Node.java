@@ -1,9 +1,11 @@
 package src;
-
 public class Node {
-    private int data;
-    private Node left;
-    private Node right;
+    int data;
+    Node left = null;
+    Node right = null;
+    int height = 1;
 
-    
+    public Node(int data) {
+        this.data = data;
+    }
 }
