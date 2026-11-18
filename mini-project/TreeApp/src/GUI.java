@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class TreeGUI extends JFrame {
+public class GUI extends JFrame {
     private Tree tree = new Tree();
     private JTextField input = new JTextField(5);
     private JLabel output = new JLabel(" ", SwingConstants.CENTER);
     private JPanel canvas;
 
-    public TreeGUI() {
+    public GUI() {
         setTitle("Tree");
         setSize(800, 550);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
